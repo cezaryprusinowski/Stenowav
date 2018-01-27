@@ -1,30 +1,31 @@
-Steganografia.
+ï»¿Steganografia.
 
-Program zapisuje tekst podany przez u¿ytkownika w pliku wav metod¹ LSB (najmniej znacz¹cy bit).
-Aby odszyfrowaæ tekst ukryty w pliku wav nale¿y uruchomiæ program z parametrem decode.
+Program zapisuje tekst podany przez uÂ¿ytkownika w pliku wav metodÂ¹ LSB (najmniej znaczÂ¹cy bit).
+Aby odszyfrowaÃ¦ tekst ukryty w pliku wav naleÂ¿y uruchomiÃ¦ program z parametrem decode.
 
 
-Jak u¿yæ:
-	Wymagane : .NET Framework 4.6.1
-	Plik tekstowy, wav i exe musz¹ znajdowaæ siê w jednym folderze.
-	Po zakodowaniu utrzowy siê plik wav z liter¹ 'e' na pocz¹tku.
-	Po odkowaniu utrzowy siê plik MESSAGE.txt.
+Jak uÂ¿yÃ¦:
+	Plik tekstowy, wav i exe muszÂ¹ znajdowaÃ¦ siÃª w jednym folderze.
+	Po zakodowaniu utrzowy siÃª plik wav z literÂ¹ 'e' na poczÂ¹tku.
+	Po odkowaniu utrzowy siÃª plik MESSAGE.txt.
+
+	W cmd (wiersz poleceÅ„) przechodzimy do folderu w ktÃ³rym znajdujÄ… siÄ™ pliki.
 
 Zakodowanie z pliku txt:
 	stenowav.exe -e -t plik.wav plik.txt
 
 Zakodowanie tekstu podanego w linii komend:
-	stenowav.exe -e -s plik.wav "Tutaj wpisaæ tekst"
+	stenowav.exe -e -s plik.wav "Tutaj wpisaÃ¦ tekst"
 
 Odkodowanie:
 	stenowav.exe -d eplik.wav
 
 
 Parametry:
-	stenowav.exe - program szyfruj¹cy
+	stenowav.exe - program szyfrujÂ¹cy
 	-e - encode
 	-d - decode
 	-t - plik .txt
 	-s - tekst wpisany w linii komend
-	plik.wav - plik wav podany przez u¿ytkownika
-	plik.txt - plik txt podany przez u¿ytkownika
+	plik.wav - plik wav podany przez uÂ¿ytkownika
+	plik.txt - plik txt podany przez uÂ¿ytkownika
