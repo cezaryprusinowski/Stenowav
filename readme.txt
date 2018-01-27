@@ -5,6 +5,7 @@ Aby odszyfrowaæ tekst ukryty w pliku wav nale¿y uruchomiæ program z parametrem d
 
 
 Jak u¿yæ:
+	Wymagane : .NET Framework 4.6.1
 	Plik tekstowy, wav i exe musz¹ znajdowaæ siê w jednym folderze.
 	Po zakodowaniu utrzowy siê plik wav z liter¹ 'e' na pocz¹tku.
 	Po odkowaniu utrzowy siê plik MESSAGE.txt.
