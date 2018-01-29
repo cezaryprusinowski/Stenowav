@@ -6,8 +6,8 @@ Aby odszyfrowac tekst ukryty w pliku wav nalezy uruchomic program z parametrem d
 
 Jak uzyc:
 	Plik tekstowy, wav i exe musza znajdowac sie w jednym folderze.
-	Po zakodowaniu utrzowy sie plik wav z litera 'e' na poczatku.
-	Po odkowaniu utrzowy sie plik MESSAGE.txt.
+	Po zakodowaniu utworzy sie plik wav z litera 'e' na poczatku.
+	Po odkowaniu utworzy sie plik MESSAGE.txt.
 
 	W cmd (wiersz polecen) przechodzimy do folderu w którym znajdują się pliki.
 
